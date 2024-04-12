@@ -1,4 +1,4 @@
-package Utils;
+package Usuarios.Utils;
 
 public enum Rol {
     CLIENTE,

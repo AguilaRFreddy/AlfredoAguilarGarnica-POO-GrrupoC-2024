@@ -1,10 +1,15 @@
-import Usuarios.Cliente;
+import Libreria.Menu;
+import Usuarios.*;
 
+//CRUD Create Read Udapte Delete
+//Asistente CRUD Clientes y Libros
+//Gerente CRUD sistema y rentas  
+//munu en ciclos opcion cerrar sesion
 
 public class App {
     public static void main(String[] args) throws Exception {
-        Cliente clientePrueba = new Cliente ("Juan", "Rivera", "4432344234");
-        System.out.println(clientePrueba.toString());
+        Menu menu = new Menu();
+        menu.IniciarSesion();
     }
     }
 
